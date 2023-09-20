@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinderDog.WebApp", "TinderDog.WebApp\TinderDog.WebApp.csproj", "{22F6711E-DD01-464D-9E54-A9D97DB2B3AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinderDog.Domain", "TinderDog.Domain\TinderDog.Domain.csproj", "{ECA840AA-81E8-41AC-B914-5B81E2EBEA41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinderDog.Data", "TinderDog.Data\TinderDog.Data.csproj", "{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinderDog.CrossCutting", "TinderDog.CrossCutting\TinderDog.CrossCutting.csproj", "{434E116A-319C-47A0-9A19-43909A95BF9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinderDog.Servico", "TinderDog.Servico\TinderDog.Servico.csproj", "{D31C24EC-4B25-4C48-9F53-4E10884E975E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Apresentação", "1- Apresentação", "{B30C6FF2-3F20-41FD-80DF-31FCAB642B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Dominio", "2- Dominio", "{F21DA80F-EDCF-456C-9734-124D6986D258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Serviço", "3- Serviço", "{82CB08B5-A859-4691-8FFE-4E6983EE537C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Dados", "4-Dados", "{EE8DE1F5-63B4-4A8D-A6A0-1B026BFFD1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Util", "5- Util", "{71EBCDA5-87F9-475A-B456-F38DD8C79C71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F6711E-DD01-464D-9E54-A9D97DB2B3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F6711E-DD01-464D-9E54-A9D97DB2B3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F6711E-DD01-464D-9E54-A9D97DB2B3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F6711E-DD01-464D-9E54-A9D97DB2B3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA840AA-81E8-41AC-B914-5B81E2EBEA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA840AA-81E8-41AC-B914-5B81E2EBEA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA840AA-81E8-41AC-B914-5B81E2EBEA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA840AA-81E8-41AC-B914-5B81E2EBEA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434E116A-319C-47A0-9A19-43909A95BF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434E116A-319C-47A0-9A19-43909A95BF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434E116A-319C-47A0-9A19-43909A95BF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434E116A-319C-47A0-9A19-43909A95BF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31C24EC-4B25-4C48-9F53-4E10884E975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31C24EC-4B25-4C48-9F53-4E10884E975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31C24EC-4B25-4C48-9F53-4E10884E975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31C24EC-4B25-4C48-9F53-4E10884E975E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22F6711E-DD01-464D-9E54-A9D97DB2B3AF} = {B30C6FF2-3F20-41FD-80DF-31FCAB642B87}
+		{ECA840AA-81E8-41AC-B914-5B81E2EBEA41} = {F21DA80F-EDCF-456C-9734-124D6986D258}
+		{A1D89DE9-BC78-44BC-AE7C-952AB0D8FFC2} = {EE8DE1F5-63B4-4A8D-A6A0-1B026BFFD1EE}
+		{434E116A-319C-47A0-9A19-43909A95BF9D} = {71EBCDA5-87F9-475A-B456-F38DD8C79C71}
+		{D31C24EC-4B25-4C48-9F53-4E10884E975E} = {82CB08B5-A859-4691-8FFE-4E6983EE537C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B162A4AE-7EAF-4482-9BFE-5EBE2CF4C4CF}
+	EndGlobalSection
+EndGlobal
